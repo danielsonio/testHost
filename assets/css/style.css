@@ -1,0 +1,214 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../images/contemporary_china.png");
+	width: 960px;
+	margin: auto;
+}
+
+/*Top Navigation Bar*/
+.header {
+	background: #ffffff;
+	position: relative;
+	padding: 0px;
+    margin-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+}
+
+/*Name on NavBar*/
+.name {
+	font-family: times;
+	font-weight: bold;
+	font-size: 24pt;
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 250px;
+	text-align: center;
+	padding: 15px 10px 15px 10px;
+	letter-spacing: 2px;
+
+}
+
+/*Navigation Buttons*/
+.nav {
+	list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 10pt;
+    right: 25pt;
+}
+
+.tab {
+    float: left;
+    padding-top: 10px;
+}
+
+.tab a {
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #777777;
+    text-decoration: none;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+
+.aboutlink {
+	border-right: 1px solid #dddddd;
+}
+
+.portfoliolink {
+	border-right: 1px solid #dddddd;	
+}
+
+a:hover {
+	color: purple;
+}
+/*Left Section*/
+.main {
+	width: 640px;
+	background: #ffffff;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+	padding: 5px 10px 0px 10px;
+	border: 1px solid #dddddd;
+
+}
+
+.title {
+	font-family: times;
+	font-weight: bold;
+	font-size: 24pt;
+	color: #4aaaa5;	
+	padding: 5px 0px 20px 0px;
+	margin: 15px;
+	border-bottom: 2px solid #dddddd;
+
+}
+
+/*Contact Form*/
+.form {
+	padding: 0px 20px 20px 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 200%;
+	color: #777777;
+}
+
+.nameform {
+	padding: 5px;
+	color: #777777;	
+}
+
+
+/*Portfolio images and captions*/
+.portfolio {
+	position: relative;
+	float: left;
+	margin: 15px;
+}
+
+.caption {
+	text-align: center;
+	font-size: 18px;
+	position: absolute;
+	bottom: 10pt;
+	left: 0;
+	background: #4aaaa5;
+	width: 100%;
+	padding: 18px;
+	box-sizing: border-box;
+	color: #ffffff;
+}
+
+img{
+	width:275px; 
+	height:190px;
+}
+
+
+/*Profile Picture*/
+#me {
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+/*Paragraph*/
+p {
+	padding: 0px 20px 20px 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	line-height: 200%;
+}
+
+
+
+/*Connect With Me Section*/
+.connect {
+	width: 270px;
+    box-sizing: border-box;
+   	background: #ffffff; 
+    float: left;  
+    margin-left: 20px; 	
+    padding: 10px 23px 10px 23px;
+    border: 1px solid #dddddd;
+
+}
+
+.icons {
+	margin: 15px;
+	text-align: center;
+}
+
+.smm {
+	width: 63px;
+	height: 63px;
+	vertical-align: bottom;
+}
+
+.smmStack {
+	width: 58px;
+	height: 57px;
+
+}
+
+.connectTitle {
+	font-family: times;
+	font-weight: bold;
+	font-size: 18pt;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #4aaaa5;	
+	padding: 5px 0px 15px 0px;
+	margin: 5px;
+	border-bottom: 1px solid #dddddd;	
+}
+
+
+
+
+footer {
+	clear: both;
+	text-align: center;
+	background: #666666;
+	border-top: 5px solid #4aaaa5;
+	padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
